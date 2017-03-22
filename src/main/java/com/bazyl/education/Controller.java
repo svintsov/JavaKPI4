@@ -4,8 +4,16 @@ import com.bazyl.education.Model.Item;
 
 import java.util.Scanner;
 
+/**
+ * Controls the work process of the app
+ *
+ * @author bazyl
+ */
 public class Controller {
 
+    /**
+     * item model entity
+     */
     Item item;
 
     /**
