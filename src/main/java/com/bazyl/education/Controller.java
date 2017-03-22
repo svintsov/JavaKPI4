@@ -1,7 +1,7 @@
 package com.bazyl.education;
 
-import com.bazyl.education.Model.Item;
 
+import com.bazyl.education.Model.Item;
 import java.util.Scanner;
 
 /**
@@ -10,7 +10,6 @@ import java.util.Scanner;
  * @author bazyl
  */
 public class Controller {
-
     /**
      * item model entity
      */
@@ -42,7 +41,6 @@ public class Controller {
         }
     }
 
-
     /**
      * gets user input from console
      *
@@ -57,5 +55,4 @@ public class Controller {
         }
         return scanner.nextLine();
     }
-
 }

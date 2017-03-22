@@ -2,7 +2,6 @@ package com.bazyl.education;
 
 
 public class View {
-
     public static String TYPE_INPUT = "ENTER TYPE:";
     public static String QUANTITY_INPUT = "ENTER QUANTITY:";
     public static String PRICE_INPUT = "ENTER PRICE:";

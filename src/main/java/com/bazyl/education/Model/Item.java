@@ -4,12 +4,11 @@ package com.bazyl.education.Model;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-public class Item implements Cloneable {
 
+public class Item implements Cloneable {
     private static String PRICE_PATTERN = "\\d+";
     private static String TYPE_PRODUCER_PATTERN = "[\\w\\s]+";
     private static String PHONE_PATTERN = "^(\\+\\d{1,2}\\s)?\\(?\\d{3}\\)?[\\s.-]\\d{3}[\\s.-]\\d{4}$";
-
     private String type = "unknown";
     private int quantity;
     private String price = "unknown";
